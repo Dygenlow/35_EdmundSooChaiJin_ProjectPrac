@@ -39,6 +39,11 @@ public class Character : MonoBehaviour
             transform.localScale = new Vector2(-1, 1);
 
             animator.SetFloat("xVelocity", Mathf.Abs(hVelocity));
+
+            if(!audioSource.isPlaying)
+            {
+                audioSource.PlayOneShot(audioClips[3]);
+            }
         }
 
         else if(Input.GetKeyUp(KeyCode.LeftArrow))
@@ -52,6 +57,11 @@ public class Character : MonoBehaviour
             transform.localScale = new Vector2(1, 1);
 
             animator.SetFloat("xVelocity", Mathf.Abs(hVelocity));
+
+            if (!audioSource.isPlaying)
+            {
+                audioSource.PlayOneShot(audioClips[3]);
+            }
         }
 
         else if(Input.GetKeyUp(KeyCode.RightArrow))

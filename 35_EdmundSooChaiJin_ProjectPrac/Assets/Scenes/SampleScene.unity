@@ -162,7 +162,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 35619143}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 4d6b54c4819e98f41a1f9ca55c1615d4, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -270,7 +270,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 142493370}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 4d6b54c4819e98f41a1f9ca55c1615d4, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -349,7 +349,7 @@ GameObject:
   - component: {fileID: 258187699}
   - component: {fileID: 258187698}
   m_Layer: 0
-  m_Name: Mace (1)
+  m_Name: Mace (Right)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -364,7 +364,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 258187697}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: e85af2946cc92f449a746c0267cae146, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -486,7 +486,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 379068502}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 4d6b54c4819e98f41a1f9ca55c1615d4, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -594,7 +594,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 575962316}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 4d6b54c4819e98f41a1f9ca55c1615d4, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -794,7 +794,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 812896629}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 4d6b54c4819e98f41a1f9ca55c1615d4, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -870,7 +870,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 893863034}
-  - component: {fileID: 893863036}
+  - component: {fileID: 893863035}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Ground
@@ -906,18 +906,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &893863036
-MonoBehaviour:
+--- !u!61 &893863035
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 893863033}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bad5fd8e18ff90f4097db4f6b0392087, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: 4d6b54c4819e98f41a1f9ca55c1615d4, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.026218891, y: -3.3002405}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 17.863014, y: 1.0768604}
+  m_EdgeRadius: 0
 --- !u!1 &904892989
 GameObject:
   m_ObjectHideFlags: 0
@@ -959,7 +973,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 904892989}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 4d6b54c4819e98f41a1f9ca55c1615d4, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1231,7 +1245,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1102845703}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 4d6b54c4819e98f41a1f9ca55c1615d4, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1420,6 +1434,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: c9bf06467d279a04eab824f763a3dc7c, type: 3}
   - {fileID: 8300000, guid: ab6fd808526fcba46b2f1dbe77edc718, type: 3}
   - {fileID: 8300000, guid: 7d5b7986b208bc5428fb43411d5aea57, type: 3}
+  - {fileID: 8300000, guid: 5257004d3d49fbf4f8e81d52e30d1716, type: 3}
 --- !u!50 &1153279206
 Rigidbody2D:
   serializedVersion: 4
@@ -1565,7 +1580,7 @@ GameObject:
   - component: {fileID: 1185439850}
   - component: {fileID: 1185439849}
   m_Layer: 0
-  m_Name: Mace
+  m_Name: Mace (Left)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1580,7 +1595,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1185439848}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: e85af2946cc92f449a746c0267cae146, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1702,7 +1717,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1244984341}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 4d6b54c4819e98f41a1f9ca55c1615d4, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1810,7 +1825,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1443042385}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 4d6b54c4819e98f41a1f9ca55c1615d4, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1890,7 +1905,7 @@ GameObject:
   - component: {fileID: 1457731927}
   - component: {fileID: 1457731930}
   m_Layer: 0
-  m_Name: Coin (1)
+  m_Name: Coin (Right)
   m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2019,7 +2034,7 @@ GameObject:
   - component: {fileID: 1642170551}
   - component: {fileID: 1642170554}
   m_Layer: 0
-  m_Name: Coin
+  m_Name: Coin(Left)
   m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2176,7 +2191,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1660668999}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 4d6b54c4819e98f41a1f9ca55c1615d4, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -2284,7 +2299,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1697639481}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 4d6b54c4819e98f41a1f9ca55c1615d4, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -2392,7 +2407,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1762664172}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 4d6b54c4819e98f41a1f9ca55c1615d4, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -2500,7 +2515,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1876327441}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 4d6b54c4819e98f41a1f9ca55c1615d4, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -2608,7 +2623,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1925365284}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 4d6b54c4819e98f41a1f9ca55c1615d4, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -2703,7 +2718,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 00f0aef09bef64e448e4c580d03ae6f5, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
